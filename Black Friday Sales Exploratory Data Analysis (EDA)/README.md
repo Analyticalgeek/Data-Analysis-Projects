@@ -41,13 +41,27 @@ Analysis revealed fascinating insights into Black Friday sales:
 
 **4.Inventory Highlights**: store has a **3623** products.
 
+**5.Gender Distribution**: *Gender Distribution In Sales*
+
+<p align="center">
+  <img src="Genderdistribution.png" alt="Gender Distribution" /><br>
+</p>
+
+
 **5.Top Spender**: User ID **1004277**  is the top spender in the Black Friday sales.
 
 **6.Hot-Selling Product**: Product ID **P00265242** is the ultimate crowd-pleaser.
 
 **7.Most Revenue generated Product**: Product ID **P00025442** is the most revenue generated product
-![Top 10 Highest Revenue Generated Products](top_10_revenue_products.png)
-*Caption: Top 10 Highest Revenue Generated Products*
+
+<br>
+
+<p align="center">
+  <img src="top_10_revenue_products.png" alt="Top 10 Highest Revenue Generated Products" /><br>
+  <em>Caption: Top 10 Highest Revenue Generated Products</em>
+</p>
+
+<br>
 
 **8.Product Frequently Bought by Both Genders**: Product ID **P00265242**
 
@@ -58,12 +72,27 @@ Analysis revealed fascinating insights into Black Friday sales:
 **11.Popular product among all age groups**: The Product ID **P00265242**
 
 **12.Age Insights**: The **26-35 age group dominated** the shopping scene, closely followed by the 36-45 age bracket.
+<br>
+<p align="center">
+  <img src="Agegroups.png" alt="Different Age groups in Sales" /><br>
+  <em>Caption: Different Age groups in Black Friday Sales</em>
+</p>
+<br>
 
 **13.City**: City 'C' saw the most action, while **City 'B' raked in the most revenue**. Cities 'A' and 'C' were hotspots for the 26-35 age group.
 
 **14.Marital Status**: Users with Marital Status '0' are more in number.
 
 **15.Product Category**: Category 5 Products are purchased more, while **Category 1** stole the show **in revenue generation.**
+
+**16.Occupation**: Occupation 4 has generated the highest Revenue
+<br>
+<p align="center">
+  <img src="Occupations.png" alt="Occupations" /><br>
+  <em>Caption: Occupations with Total Purchase Amount</em>
+</p>
+<br>
+
 
 ## Conclusion 🎇
 
