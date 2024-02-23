@@ -43,23 +43,27 @@ Analysis revealed fascinating insights into Black Friday sales:
 
 **5.Top Spender**: User ID **1004277**  is the top spender in the Black Friday sales.
 
-**6.Hot-Selling Product**: Product ID **P00025442** is the ultimate crowd-pleaser.
+**6.Hot-Selling Product**: Product ID **P00265242** is the ultimate crowd-pleaser.
 
-**7.Product Frequently Bought by Both Genders**: Product ID **P00265242**
+**7.Most Revenue generated Product**: Product ID **P00025442** is the most revenue generated product
+![Top 10 Highest Revenue Generated Products](top_10_revenue_products.png)
+*Caption: Top 10 Highest Revenue Generated Products*
 
-**8.Most Revenue Generated Product Among Females**: The Product ID **P00255842** among female shoppers.
+**8.Product Frequently Bought by Both Genders**: Product ID **P00265242**
 
-**9.Most Revenue Generated Product Among Males**: The Product ID **P00025442** which is also hot selling product.
+**9.Most Revenue Generated Product Among Females**: The Product ID **P00255842** among female shoppers.
 
-**10.Popular product among all age groups**: The Product ID **P00265242**
+**10.Most Revenue Generated Product Among Males**: The Product ID **P00025442** which is also hot selling product.
 
-**11.Age Insights**: The **26-35 age group dominated** the shopping scene, closely followed by the 36-45 age bracket.
+**11.Popular product among all age groups**: The Product ID **P00265242**
 
-**12.City**: City 'C' saw the most action, while **City 'B' raked in the most revenue**. Cities 'A' and 'C' were hotspots for the 26-35 age group.
+**12.Age Insights**: The **26-35 age group dominated** the shopping scene, closely followed by the 36-45 age bracket.
 
-**13.Marital Status**: Users with Marital Status '0' are more in number.
+**13.City**: City 'C' saw the most action, while **City 'B' raked in the most revenue**. Cities 'A' and 'C' were hotspots for the 26-35 age group.
 
-**14.Product Category**: Category 5 Products are purchased more, while **Category 1** stole the show **in revenue generation.**
+**14.Marital Status**: Users with Marital Status '0' are more in number.
+
+**15.Product Category**: Category 5 Products are purchased more, while **Category 1** stole the show **in revenue generation.**
 
 ## Conclusion 🎇
 
