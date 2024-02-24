@@ -10,8 +10,8 @@ In our treasure trove of data, we have `black_friday_sales.csv`. It's packed wit
 
 ## Files 📁
 
-- [`black_friday_sales.csv`](https://github.com/Analyticalgeek/Exploratory-Data-Analysis/blob/main/Black%20Friday%20Sales%20Exploratory%20Data%20Analysis%20(EDA)/BlackFriday.csv): Our main dataset, the heartbeat of our analysis.
-- [`Black_Friday_Sales_EDA.ipynb`](https://github.com/Analyticalgeek/Exploratory-Data-Analysis/blob/main/Black%20Friday%20Sales%20Exploratory%20Data%20Analysis%20(EDA)/Black%20Friday%20Sales%20Analysis.ipynb): Behold our Jupyter Notebook, where magic happens with Python 🐍 code, uncovering the secrets of Black Friday shopping habits.
+- [`black_friday_sales.csv`](https://github.com/Analyticalgeek/Data-Analysis-Projects/blob/main/Black%20Friday%20Sales/Data/BlackFriday.csv): Our main dataset, the heartbeat of our analysis.
+- [`Black_Friday_Sales_EDA.ipynb`](https://github.com/Analyticalgeek/Data-Analysis-Projects/blob/main/Black%20Friday%20Sales/Notebooks/Black%20Friday%20Sales%20Analysis.ipynb): Behold our Jupyter Notebook, where magic happens with Python 🐍 code, uncovering the secrets of Black Friday shopping habits.
 - `README.md` (you're here!): Your guide to this exhilarating journey through Black Friday sales data.
 
 ## Requirements 🛠️
@@ -44,7 +44,7 @@ Analysis revealed fascinating insights into Black Friday sales:
 **5.Gender Distribution**: *Gender Distribution In Sales*
 
 <p align="center">
-  <img src="Genderdistribution.png" alt="Gender Distribution" /><br>
+  <img src="Images/Genderdistribution.png" alt="Gender Distribution" /><br>
 </p>
 
 
@@ -57,7 +57,7 @@ Analysis revealed fascinating insights into Black Friday sales:
 <br>
 
 <p align="center">
-  <img src="top_10_revenue_products.png" alt="Top 10 Highest Revenue Generated Products" /><br>
+  <img src="Images/top_10_revenue_products.png" alt="Top 10 Highest Revenue Generated Products" /><br>
   <em>Caption: Top 10 Highest Revenue Generated Products</em>
 </p>
 
@@ -74,7 +74,7 @@ Analysis revealed fascinating insights into Black Friday sales:
 **12.Age Insights**: The **26-35 age group dominated** the shopping scene, closely followed by the 36-45 age bracket.
 <br>
 <p align="center">
-  <img src="Agegroups.png" alt="Different Age groups in Sales" /><br>
+  <img src="Images/Agegroups.png" alt="Different Age groups in Sales" /><br>
   <em>Caption: Different Age groups in Black Friday Sales</em>
 </p>
 <br>
@@ -88,7 +88,7 @@ Analysis revealed fascinating insights into Black Friday sales:
 **16.Occupation**: Occupation 4 has generated the highest Revenue
 <br>
 <p align="center">
-  <img src="Occupations.png" alt="Occupations" /><br>
+  <img src="Images/Occupations.png" alt="Occupations" /><br>
   <em>Caption: Occupations with Total Purchase Amount</em>
 </p>
 <br>
