@@ -40,31 +40,22 @@ After cleaning the dataset, I computed summary statistics to get an overview of 
 <br>
 
 
-## Analysis 📈
-
-I start the analysis by conducting exploratory data analysis (EDA) to gain initial insights into the dataset. Using statistical techniques and visualizations, I identify trends, correlations, and outliers. These findings are then summarized to extract meaningful insights about app performance and user preferences.
-
-Code 💻
-The code section of this repository contains Python scripts and Jupyter notebooks that I've developed to clean, preprocess, and analyze the data. I've ensured that the code is well-documented and organized for easy comprehension and replication of the analysis. I welcome contributions to the codebase, whether it's fixing bugs, adding new features, or suggesting improvements.
-
-Results 📊
-The results section presents visualizations and summaries of key findings derived from my analysis. These results provide actionable insights for app developers, marketers, and other stakeholders interested in understanding the dynamics of the Google Play Store ecosystem.
-
 ## Analysis 🧐
 
-Analysis revealed fascinating insights into Black Friday sales:
+I start the analysis by conducting exploratory data analysis (EDA) to gain initial insights into the dataset. Using statistical techniques and visualizations, I identify trends, correlations, and outliers. These findings are then summarized. 
 
+## Code 💻
+The Noteook section of this repository contains  Jupyter notebooks that I've developed to clean, preprocess, and analyze the data. I've ensured that the code is well-documented and organized for easy comprehension and replication of the analysis. I welcome contributions to the codebase, whether it's fixing bugs, adding new features, or suggesting improvements.
 
-<br>
-<p align="center">
-  <img src="Occupations.png" alt="Occupations" /><br>
-  <em>Caption: Occupations with Total Purchase Amount</em>
-</p>
-<br>
+Data cleaning Notebook [link](https://github.com/Analyticalgeek/Data-Analysis-Projects/blob/main/Google%20Play%20Store/Notebooks/Google%20Play%20Store%20Data%20Cleaning.ipynb)
 
+Exploratory Data Analysis Notebook [Link](https://github.com/Analyticalgeek/Data-Analysis-Projects/blob/main/Google%20Play%20Store/Notebooks/Google%20Play%20store%20EDA.ipynb)
+
+## Results 📊
+The results section presents visualizations and summaries of key findings derived from my analysis. These results provide actionable insights for app developers, marketers, and other stakeholders interested in understanding the dynamics of the Google Play Store ecosystem.
 
 ## Conclusion 🎇
 
-This analysis offers a deep dive into the dynamics of Black Friday sales, uncovering key insights that can guide businesses in tailoring their strategies to maximize revenue and shopper satisfaction 🚀.
+In conclusion, this analysis offers actionable insights into Google Play Store trendsthat can guide businesses in tailoring their strategies to maximize revenue.
 
 ---
