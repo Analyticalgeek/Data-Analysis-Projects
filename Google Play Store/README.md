@@ -1,18 +1,10 @@
-# 🛍️ Black Friday Sales Exploratory Data Analysis (EDA) 📊
+# 📱 Google Play Store App's Exploratory Data Analysis (EDA) 
 
-## Overview
+## Introduction
+Welcome to my Google Play Store Data Analysis project! In this repository, I explore and analyze data from the Google Play Store to uncover insights into app trends, user preferences, and factors influencing app success on the platform.
 
-Welcome to our Black Friday Sales EDA project! Here, we dive into the exciting world of Black Friday shopping sales 🎉. Our goal is to unravel intriguing insights from the Black Friday sales data, uncovering hidden trends and patterns that could guide businesses to shopper satisfaction and increased revenue 💰.
-
-## Dataset 📈
-
-In our treasure trove of data, we have `black_friday_sales.csv`. It's packed with details about User_ID, Product_ID, Gender, Age, Occupation, City_Category, Stay_In_Current_City_Years, Marital_Status and Product_Category_1.
-
-## Files 📁
-
-- [`black_friday_sales.csv`](https://github.com/Analyticalgeek/Exploratory-Data-Analysis/blob/main/Black%20Friday%20Sales%20Exploratory%20Data%20Analysis%20(EDA)/BlackFriday.csv): Our main dataset, the heartbeat of our analysis.
-- [`Black_Friday_Sales_EDA.ipynb`](https://github.com/Analyticalgeek/Exploratory-Data-Analysis/blob/main/Black%20Friday%20Sales%20Exploratory%20Data%20Analysis%20(EDA)/Black%20Friday%20Sales%20Analysis.ipynb): Behold our Jupyter Notebook, where magic happens with Python 🐍 code, uncovering the secrets of Black Friday shopping habits.
-- `README.md` (you're here!): Your guide to this exhilarating journey through Black Friday sales data.
+## Data 📊
+The [dataset](https://github.com/Analyticalgeek/Data-Analysis-Projects/blob/main/Google%20Play%20Store/Data/googleplaystore.csv) I utilize for this analysis contains comprehensive information about various apps available on the Google Play Store. It includes details such as app names, categories, ratings, reviews, sizes, Installs, Type, Price, Content Rating, Genres , Last Updated , Current Ver, Android Ver.
 
 ## Requirements 🛠️
 
@@ -28,64 +20,41 @@ Install them with a below code:
 ```
 pip install pandas numpy matplotlib seaborn
 ```
+## Data Cleaning 🧹
+
+Before diving into analysis, I cleaned the dataset to ensure its quality and consistency. This involved handling missing values, removing duplicates, and addressing any inconsistencies in the data. By performing these preprocessing steps, I ensured that the dataset was ready for analysis.
+
+**Notebook detailing the data cleaning**: [Data clean Notebook](https://github.com/Analyticalgeek/Data-Analysis-Projects/blob/main/Google%20Play%20Store/Notebooks/Google%20Play%20Store%20Data%20Cleaning.ipynb)
+
+**Final Cleaned DataSet**: [Cleaned Dataset](https://github.com/Analyticalgeek/Data-Analysis-Projects/blob/main/Google%20Play%20Store/Data/cleaned_data.csv)
+
+## Summary Statistics 📝
+
+After cleaning the dataset, I computed summary statistics to get an overview of the data. This included measures such as mean, median, standard deviation, and range for relevant variables. These summary statistics provided initial insights into the distribution and characteristics of the data.
+
+<br>
+<p align="center">
+  <img src="/Images/Summary.png" alt="Summary" /><br>
+  <em>Caption: Summary Statistics of the Data</em>
+</p>
+<br>
+
+
+## Analysis 📈
+
+I start the analysis by conducting exploratory data analysis (EDA) to gain initial insights into the dataset. Using statistical techniques and visualizations, I identify trends, correlations, and outliers. These findings are then summarized to extract meaningful insights about app performance and user preferences.
+
+Code 💻
+The code section of this repository contains Python scripts and Jupyter notebooks that I've developed to clean, preprocess, and analyze the data. I've ensured that the code is well-documented and organized for easy comprehension and replication of the analysis. I welcome contributions to the codebase, whether it's fixing bugs, adding new features, or suggesting improvements.
+
+Results 📊
+The results section presents visualizations and summaries of key findings derived from my analysis. These results provide actionable insights for app developers, marketers, and other stakeholders interested in understanding the dynamics of the Google Play Store ecosystem.
 
 ## Analysis 🧐
 
 Analysis revealed fascinating insights into Black Friday sales:
 
-**1.Revenue Generated** : jaw-dropping total revenue of **$5,017,668,378**!
 
-**2.Average Revenue**: Each shopper spent an average of **$9333.86**
-
-**3.Total Customers**: We had a bustling crowd of **5891** shoppers join the Black Friday sales!
-
-**4.Inventory Highlights**: store has a **3623** products.
-
-**5.Gender Distribution**: *Gender Distribution In Sales*
-
-<p align="center">
-  <img src="Genderdistribution.png" alt="Gender Distribution" /><br>
-</p>
-
-
-**5.Top Spender**: User ID **1004277**  is the top spender in the Black Friday sales.
-
-**6.Hot-Selling Product**: Product ID **P00265242** is the ultimate crowd-pleaser.
-
-**7.Most Revenue generated Product**: Product ID **P00025442** is the most revenue generated product
-
-<br>
-
-<p align="center">
-  <img src="top_10_revenue_products.png" alt="Top 10 Highest Revenue Generated Products" /><br>
-  <em>Caption: Top 10 Highest Revenue Generated Products</em>
-</p>
-
-<br>
-
-**8.Product Frequently Bought by Both Genders**: Product ID **P00265242**
-
-**9.Most Revenue Generated Product Among Females**: The Product ID **P00255842** among female shoppers.
-
-**10.Most Revenue Generated Product Among Males**: The Product ID **P00025442** which is also hot selling product.
-
-**11.Popular product among all age groups**: The Product ID **P00265242**
-
-**12.Age Insights**: The **26-35 age group dominated** the shopping scene, closely followed by the 36-45 age bracket.
-<br>
-<p align="center">
-  <img src="Agegroups.png" alt="Different Age groups in Sales" /><br>
-  <em>Caption: Different Age groups in Black Friday Sales</em>
-</p>
-<br>
-
-**13.City**: City 'C' saw the most action, while **City 'B' raked in the most revenue**. Cities 'A' and 'C' were hotspots for the 26-35 age group.
-
-**14.Marital Status**: Users with Marital Status '0' are more in number.
-
-**15.Product Category**: Category 5 Products are purchased more, while **Category 1** stole the show **in revenue generation.**
-
-**16.Occupation**: Occupation 4 has generated the highest Revenue
 <br>
 <p align="center">
   <img src="Occupations.png" alt="Occupations" /><br>
