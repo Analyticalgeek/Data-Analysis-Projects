@@ -34,7 +34,7 @@ After cleaning the dataset, I computed summary statistics to get an overview of 
 
 <br>
 <p align="center">
-  <img src="/Images/Summary.png" alt="Summary" /><br>
+  <img src="Images/Summary.png" alt="Summary" /><br>
   <em>Caption: Summary Statistics of the Data</em>
 </p>
 <br>
