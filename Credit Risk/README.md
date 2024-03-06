@@ -1,18 +1,33 @@
-# 🛍️ Black Friday Sales Exploratory Data Analysis (EDA) 📊
+# 📝 Credit Risk Analysis Repository 
 
 ## Overview
 
-Welcome to our Black Friday Sales EDA project! Here, we dive into the exciting world of Black Friday shopping sales 🎉. Our goal is to unravel intriguing insights from the Black Friday sales data, uncovering hidden trends and patterns that could guide businesses to shopper satisfaction and increased revenue 💰.
+Welcome to our Credit Risk Analysis Repository! Here, we delve into the intricate world of credit risk assessment 📊. Our objective is to analyze credit data and extract valuable insights to aid in risk management and decision-making processes.
 
 ## Dataset 📈
 
-In our treasure trove of data, we have `black_friday_sales.csv`. It's packed with details about User_ID, Product_ID, Gender, Age, Occupation, City_Category, Stay_In_Current_City_Years, Marital_Status and Product_Category_1.
+For our analysis, we've sourced our dataset from Kaggle. It contains a comprehensive set of features related to credit applicants and loan characteristics. Here are the columns included in our dataset:
+
+* person_age: Age of the individual (years)
+* person_income: Income of the individual (USD)
+* person_home_ownership: Home ownership status ('RENT', 'OWN', 'MORTGAGE')
+* person_emp_length: Employment length (years)
+* loan_intent: Purpose of the loan ('PERSONAL', 'EDUCATION', 'MEDICAL', etc.)
+* loan_grade: Grade of the loan ('A', 'B', 'C', 'D', 'E', 'F', 'G')
+* loan_amnt: Loan amount (USD)
+* loan_int_rate: Loan interest rate (%)
+* loan_status: Loan status (1 for default, 0 for non-default)
+* loan_percent_income: Loan amount as a percentage of income
+* cb_person_default_on_file: Default history on file ('Y' for yes, 'N' for no)
+* cb_person_cred_hist_length: Credit history length (years)
 
 ## Files 📁
 
-- [`black_friday_sales.csv`](https://github.com/Analyticalgeek/Exploratory-Data-Analysis/blob/main/Black%20Friday%20Sales%20Exploratory%20Data%20Analysis%20(EDA)/BlackFriday.csv): Our main dataset, the heartbeat of our analysis.
-- [`Black_Friday_Sales_EDA.ipynb`](https://github.com/Analyticalgeek/Exploratory-Data-Analysis/blob/main/Black%20Friday%20Sales%20Exploratory%20Data%20Analysis%20(EDA)/Black%20Friday%20Sales%20Analysis.ipynb): Behold our Jupyter Notebook, where magic happens with Python 🐍 code, uncovering the secrets of Black Friday shopping habits.
-- `README.md` (you're here!): Your guide to this exhilarating journey through Black Friday sales data.
+- [`credit_risk_data.csv`](https://github.com/Analyticalgeek/Data-Analysis-Projects/blob/main/Credit%20Risk/Data/credit_risk_dataset.csv): Our main dataset, the heartbeat of our analysis.
+- [`final.csv`](https://github.com/Analyticalgeek/Data-Analysis-Projects/blob/main/Credit%20Risk/Data/final.csv): The final datset after data cleaning and Preprocessing.
+- [`credit risk analytics Data cleaning.ipynb`](https://github.com/Analyticalgeek/Data-Analysis-Projects/blob/main/Credit%20Risk/Notebooks/Credit%20Risk%20Analytics%20Data%20Cleaning.ipynb): The jupyter Notebook version  of the python script where the data cleaning and Preprocessing is done
+- [`credit risk Exploratory Data Analysis.ipynb`](https://github.com/Analyticalgeek/Data-Analysis-Projects/blob/main/Credit%20Risk/Notebooks/Credit%20Risk%20Exploratory%20Data%20Analysis.ipynb): The jupyter version of the python script where the Exploratory Data analysis is done.
+- `README.md` (you're here!): Your guide to this exhilarating journey through Credit Risk Data Analytics.
 
 ## Requirements 🛠️
 
